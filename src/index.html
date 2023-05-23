@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Document</title>
+  <style>
+    body {
+      justify-content: flex-start;
+    }
+    
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .container {
+      text-align: left;
+    }
+    
+    .password-line {
+      display: flex;
+      align-items: center;
+    }
+    
+    .password-line label {
+      margin-right: 10px;
+    }
+    
+    .new-to-amazon {
+      text-align: center;
+    }
+    
+    .footer-text {
+      text-decoration: none;
+      color: blue;
+    }
+    
+    .final-footer {
+      display: block;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+<div>
+  <img class="center" src="rabbitstockphoto.jpeg" alt="Rabbit image">
+</div>
+
+<div class="container">
+  <h1>Sign In</h1>
+  <form id="signInForm">
+    <label for="email">Email (phone or mobile accounts)</label>
+    <input type="email" id="email" name="email" required>
+    <div class="password-line">
+      <label for="password">Password</label>
+      <a href="#" class="forgot-password-link">Forgot Password?</a>
+    </div>
+    <input type="password" id="password" name="password" placeholder="Enter Password" required>
+    <button type="submit">Continue</button>
+  </form>
+  <ul style="list-style-type: square;">
+    <li><a href="#" class="help-link">Need Help?</a></li>
+  </ul>
+</div>
+
+<div class="new-to-amazon">
+  <p>New to Amazon?</p>
+  <br>
+  <button class="create-account-button">Create Your Amazon Account</button>
+</div>
+
+<br><br>
+<hr>
+<br><br>
+
+<footer>
+  <small><a href="#" class="footer-text">Conditions of Use</a></small>
+  <small><a href="#" class="footer-text">Privacy Policy</a></small>
+  <small><a href="#" class="footer-text">Help</a></small>
+  <br><br>
+  <span class="final-footer">&copy; 1996-2020 Amazon.com, Inc. or its affiliates</span>
+</footer>
+
+</body>
+</html>
