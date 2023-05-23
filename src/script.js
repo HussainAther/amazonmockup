@@ -14,12 +14,13 @@ document.getElementById('signInForm').addEventListener('submit', function(event)
   }
 });
 
-document.querySelector('.create-account-button').addEventListener('click', function() {
+const createAccountButton = document.querySelector('.create-account-button');
+createAccountButton.addEventListener('click', () => {
   alert('Make your account!');
   // Either redirect to the account creation page or proceed with additional actions.
 });
 
-document.querySelector('.help-link').addEventListener('click', function() {
+const helpLink = document.querySelector('.help-link');
+helpLink.addEventListener('click', () => {
   alert('Need Help');
 });
-
